@@ -112,6 +112,6 @@ func BucketSort(in []int, bucketSize int) ([]int, bool) {
 func BenchmarkBucketSort(b *testing.B) {
 	x66 := []int{20, 50, 12, 80, 5, 36}
 	for i := 0; i < b.N; i++ {
-		goNum.BucketSort(x66，2)
+		goNum.BucketSort(x66, 2)
 	}
 }
